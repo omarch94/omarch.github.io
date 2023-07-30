@@ -1,4 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import "./App.css";
+
+import React, { createContext,useEffect, useState } from 'react';
 
 import SideBar from './interface/SideBar';
 import Navbar from './components/NavBar';
@@ -7,6 +9,9 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Social from "./interface/Social";
+import ReactSwitch from "react-switch";
+
+export const ThemeContext = createContext(null);
 
 
 const App = () => {
@@ -14,7 +19,11 @@ const App = () => {
   const [home, setHome] = useState(false);
   const [sideBar, setSideBar] = useState(false);
 
+  const [theme, setTheme] = useState("dark");
 
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
   useEffect(() => {
     setTimeout(() => {
       setHome(true);
@@ -27,7 +36,12 @@ const App = () => {
 
 
   return (
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+
     <React.Fragment>
+    <div className="App" id={theme}>
+
+  
       <Navbar />
       {home && <Home />}
       {sideBar && <About />}
@@ -48,7 +62,11 @@ const App = () => {
       {sideBar && <SideBar side='right'>
         <p className='vertical'>Created by OMAR CHERTI</p>
       </SideBar>}
+    </div>
     </React.Fragment>
+    
+        </ThemeContext.Provider>
+
   );
 };
 

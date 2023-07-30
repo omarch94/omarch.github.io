@@ -53,36 +53,28 @@ const About = () => {
           <div className={classes.skills}>
             <h3>Technologies</h3>
             <div className={classes.tech}>
-              <p>Bash</p>
-              <p>Cypress</p>
               <p>Bootstrap</p>
-              <p>Bulma</p>
               <p>CSS/Sass</p>
-              <p>Django</p>
-              <p>EJS</p>
-              <p>Emotion</p>
+              <p>Wordpress</p>
               <p>Express.js</p>
               <p>Firebase</p>
               <p>Git/Github</p>
               <p>HTML5</p>
-              <p>Java</p>
               <p>JavaScript</p>
-              <p>Jest</p>
               <p>Material UI</p>
               <p>MongoDB</p>
               <p>Mongoose</p>
               <p>MySQL</p>
-              <p>Next.js</p>
               <p>Node.js</p>
               <p>Postman</p>
               <p>Python</p>
               <p>React.js</p>
               <p>Redux</p>
               <p>REST API</p>
-              <p>Sequelize</p>
-              <p>SQL</p>
               <p>Tailwind</p>
-              <p>TypeScript</p>
+              <p>Php</p>
+              <p>Laravel</p>
+
             </div>
           </div>
           <div className={classes.button}>{tablet && <Resume />}</div>

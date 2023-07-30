@@ -9,6 +9,7 @@
   margin: $body-margin;
 }
 
+
 @include devices (tablet) {
   .content {
     margin: $body-margin-xs;

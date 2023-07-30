@@ -25,6 +25,7 @@ const Navbar = (props) => {
   // #7 state for ham getting clicked
   const [hamClicked, setHamClicked] = useState(false);
 
+ 
   const handleScroll = () => {
     if (scroll < 100) {
       setTop(true);
@@ -77,6 +78,7 @@ const Navbar = (props) => {
 
   const mobileNav = (
     <Modal onLoad={hamClicked} onClick={showMobileNav} onBackdrop={handleMenu}>
+        
       <nav
         className={
           (top && !showMobileNav && classes.top) ||

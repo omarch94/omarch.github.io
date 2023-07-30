@@ -7,45 +7,44 @@ const Portfolio = () => {
       <div>
         <Header>PORTFOLIO</Header>
         <ul className={classes.content}>
-          <Card
+          {/* <Card
             // img="https://firebasestorage.googleapis.com/v0/b/portfolio-react-5481e.appspot.com/o/images%2Fdemographix_gif.gif?alt=media"
             title="Real Estate Dashboard"
             description="A real estate dashboard using react js typescript refine google auth mongo db and express js"
             tech={["Beautiful Soup", "Flask", "Material UI", "React.js", "OpenAI API", "PaLM API", "PostgreSQL", "Python", "SQLAlchemy"]}
             git="https://github.com/omarch94/RealEstateApp"
             // link="http://18.209.200.234/"
-          />
+          /> */}
             <Card
             img={"images/o-dashy.png"}
             title="O-DASHY"
-            description="Demographix is a data visualization tool designed to showcase demographics of on-screen cast members in popular Hollywood movies."
-            tech={["React JS", "Flask", "Material UI", "React.js", "OpenAI API", "PaLM API", "PostgreSQL", "Python", "SQLAlchemy"]}
+            description="A Dashboard with multiple tools such as calendar color picker and kanbar "
+            tech={["React JS", "Tailwind css"]}
             git="https://github.com/omarch94/Dashboard"
             link="https://o-dashy.netlify.app/"
           />
           <Card
             img={"images/gym.png"}
             title="Gym App"
-            description="Horse Race is a web implementation of a drinking game usually played with a deck of cards. Players bet on up to four horses (represented as aces of a suit) and the horses themselves move across the 'field' based on cards that are drawn from the deck."
-            tech={["Emotion", "Next.js", "React.js", "Typescript", "Vercel"]}
-            git="https://github.com/mithintv/horse-race"
-            link="https://horse-race-mu.vercel.app/"
+            description="A gym App With the functionality to choose exercise categories and specific muscle groups, browse more than one thousand exercises with practical examples, pagination, exercise details, pull related videos from youtube, display similar exercises, "
+            tech={["React Js", "Axios", "Tailwindcss", "RapidApi"]}
+            git="https://github.com/omarch94/Gym"
+            // link="https://horse-race-mu.vercel.app/"
           />
           <Card
-            img="https://firebasestorage.googleapis.com/v0/b/portfolio-react-5481e.appspot.com/o/images%2Ffilm-portfolio-screenshot.png?alt=media"
-            title="Film Portfolio"
-            description="A web portfolio of my film and commercial work. Working on this portfolio was the initial inspiration and catalyst to my journey as a developer and software engineer."
+            img={"images/greenworks.png"}
+            title="Greenworks"
+            description="A marketplace for ecological things"
             tech={[
-              "Emotion",
+              "html5",
               "MySQL",
-              "Next.js",
-              "Sequelize",
-              "React.js",
-              "Typescript",
-              "Vercel",
+              "css3",
+              "Javascript",
+              "Php",
+              "PDO",
             ]}
-            git="https://github.com/mithintv/film-portfolio"
-            link="https://mithin.tv"
+            git="https://github.com/omarch94/GREENWORKS"
+            // link="https://mithin.tv"
           />
           <Card
             img={"images/elhmiza_app.png"}
@@ -88,32 +87,7 @@ const Portfolio = () => {
             git="https://github.com/mithintv/keeper-app"
             link="https://keeper-app-project.netlify.app/"
           /> */}
-          {/* <Card
-            img="https://firebasestorage.googleapis.com/v0/b/portfolio-react-5481e.appspot.com/o/images%2Fyelp-camp-screen.png?alt=media"
-            title="Yelp Camp"
-            description="A Yelp-like application for campgrounds. Create an account and add campgrounds you have visited as well as review campgrounds that other users have added."
-            tech={[
-              "Bootstrap",
-              "Cyclic",
-              "EJS",
-              "Express.js",
-              "Helmet",
-              "Node.js",
-              "MongoDB",
-              "Mongoose",
-              "Passport.js",
-            ]}
-            git="https://github.com/mithintv/yelp-camp"
-            link="https://blush-nightingale-wear.cyclic.app/.netlify/functions/app/campgrounds"
-          /> */}
-          {/* <Card
-            img="https://firebasestorage.googleapis.com/v0/b/portfolio-react-5481e.appspot.com/o/images%2Fsimon-game-screen.png?alt=media"
-            title="Simon Game"
-            description="This is a web implementation of Simon, an electronic game of short-term memory skill originally released in 1978 built with vanilla JavaScript and CSS3."
-            tech={["CSS3", "GitPages", "HTML5", "JavaScript"]}
-            git="https://github.com/mithintv/simon-game"
-            link="https://mithintv.github.io/simon-game/"
-          /> */}
+        
         </ul>
       </div>
     </section>
