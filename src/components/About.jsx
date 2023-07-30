@@ -38,16 +38,9 @@ const About = () => {
           <div className={classes.background}>
             <h3>Background</h3>
             <p className={classes.text}>
-              I am currently a freelance Software Engineer splitting my time
-              between client work and personal projects. I am passionate about
-              making the world a more egalitarian place and frequently think
-              about ideas and solutions that can make that world a reality.
+            I'm Omar Cherti, a Full Stack Web Developer with a background in Finance and Accounting. After completing my Master's Degree, I followed my passion for coding and embarked on an exciting journey into the world of web development. Now, I thrive on transforming ideas into innovative web applications that make a positive impact. Let's create something extraordinary together!
             </p>
-            <p className={classes.text}>
-              When I am not coding, I am either writing a new screenplay or
-              actively working on a film/commerical set. You can check out my
-              film and production work <a href="https://mithin.tv">here</a>.
-            </p>
+          
             {!tablet && !laptop && <Resume />}
           </div>
           <div className={classes.skills}>

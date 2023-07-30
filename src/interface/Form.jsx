@@ -144,7 +144,7 @@ const Form = props => {
       return;
     } else {
 
-      emailjs.sendForm('service_72mo8y7', 'contact_form', formRef.current, '-YTmwUFLJVqxXgeZh')
+      emailjs.sendForm('service_zgvruhw', 'template_puknf24', formRef.current, 'zo6ZvsRLjuOvZxVOs')
         .then((result) => {
           console.log(result.text);
         }, (error) => {
