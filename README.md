@@ -3,5 +3,4 @@
 
 <!-- ![portfolio-react-gif](https://user-images.githubusercontent.com/13951154/187252539-d8eb1bd1-c6a3-43bd-a16d-10a675025264.gif)
 
-<h2>Local Installation</h2>
-<p>Download the codebase to a local directory and install all dependencies with <code>yarn install</code>. Run the app with <code>yarn start</code>.</p> -->
+<p>My name is omar cherti </p>
